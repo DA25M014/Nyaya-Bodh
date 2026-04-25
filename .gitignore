@@ -11,4 +11,3 @@ derby.log
 *.egg-info/
 .pytest_cache/
 mlflow.db
-mlruns/
