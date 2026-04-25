@@ -1,0 +1,101 @@
+Bharatiya Nyaya Sanhita 2023
+Selected sections for the Nyaya-Bodh prototype.
+Source: Government of India Gazette, Bharatiya Nyaya Sanhita 2023.
+This file is a curated subset for development. Drop the full Gazette PDF in data/bns.pdf to use the complete corpus.
+
+Section 2. Definitions.
+In this Sanhita, unless the context otherwise requires, the words and expressions used and not defined herein shall have the meanings respectively assigned to them in the Bharatiya Nagarik Suraksha Sanhita and in the Information Technology Act, 2000. Words importing the masculine gender are taken to include females. Word "act" denotes as well a series of acts as a single act. The word "omission" denotes as well a series of omissions as a single omission. "Document" includes any matter expressed or described upon any substance by means of letters, figures or marks, intended to be used for the purpose of recording that matter, including electronic and digital records.
+
+Section 4. Punishments.
+The punishments to which offenders are liable under the provisions of this Sanhita are: (a) Death; (b) Imprisonment for life; (c) Imprisonment, which is of two descriptions, namely, rigorous, that is, with hard labour, and simple; (d) Forfeiture of property; (e) Fine; and (f) Community service.
+
+Section 63. Rape.
+A man is said to commit rape if he has sexual intercourse with a woman in the circumstances specified in this section, including against her will, without her consent, with consent obtained under fear of death or hurt, or with consent obtained when she is unable to understand the nature and consequences of that to which she gives consent. The minimum age for consent is eighteen years. Whoever, except in the cases provided for in sub-section (2), commits rape, shall be punished with rigorous imprisonment of either description for a term which shall not be less than ten years, but which may extend to imprisonment for life, and shall also be liable to fine.
+
+Section 64. Punishment for rape.
+Whoever, being a police officer, public servant, member of the armed forces, member of the management or staff of a jail, remand home, hospital or other place of custody, commits rape on a woman in such custody or under his charge, shall be punished with rigorous imprisonment for a term which shall not be less than ten years but which may extend to imprisonment for life, which shall mean imprisonment for the remainder of that person's natural life, and shall also be liable to fine.
+
+Section 69. Sexual intercourse by employing deceitful means etc.
+Whoever, by deceitful means or by making a promise to marry to a woman without any intention of fulfilling the same, has sexual intercourse with her, such sexual intercourse not amounting to the offence of rape, shall be punished with imprisonment of either description for a term which may extend to ten years and shall also be liable to fine. The expression "deceitful means" includes the false promise of employment or promotion, inducement, or marrying after suppressing identity.
+
+Section 100. Culpable homicide.
+Whoever causes death by doing an act with the intention of causing death, or with the intention of causing such bodily injury as is likely to cause death, or with the knowledge that he is likely by such act to cause death, commits the offence of culpable homicide.
+
+Section 101. Murder.
+Except in the cases hereinafter excepted, culpable homicide is murder if the act by which the death is caused is done with the intention of causing death, or if it is done with the intention of causing such bodily injury as the offender knows to be likely to cause the death of the person to whom the harm is caused, or if it is done with the intention of causing bodily injury to any person and the bodily injury intended to be inflicted is sufficient in the ordinary course of nature to cause death, or if the person committing the act knows that it is so imminently dangerous that it must, in all probability, cause death.
+
+Section 103. Punishment for murder.
+(1) Whoever commits murder shall be punished with death or imprisonment for life, and shall also be liable to fine.
+(2) When a group of five or more persons acting in concert commits murder on the ground of race, caste or community, sex, place of birth, language, personal belief or any other similar ground each member of such group shall be punished with death or with imprisonment for life, and shall also be liable to fine.
+
+Section 105. Punishment for culpable homicide not amounting to murder.
+Whoever commits culpable homicide not amounting to murder shall be punished with imprisonment for life, or imprisonment of either description for a term which shall not be less than five years but which may extend to ten years, and shall also be liable to fine, if the act by which the death is caused is done with the intention of causing death, or of causing such bodily injury as is likely to cause death; or with imprisonment of either description for a term which may extend to ten years and with fine, if the act is done with the knowledge that it is likely to cause death, but without any intention to cause death, or to cause such bodily injury as is likely to cause death.
+
+Section 106. Causing death by negligence.
+(1) Whoever causes death of any person by doing any rash or negligent act not amounting to culpable homicide shall be punished with imprisonment of either description for a term which may extend to five years, and shall also be liable to fine; and if such act is done by a registered medical practitioner while performing medical procedure, he shall be punished with imprisonment of either description for a term which may extend to two years, and shall also be liable to fine.
+(2) Whoever causes death of any person by rash and negligent driving of vehicle not amounting to culpable homicide, and escapes without reporting it to a police officer or a Magistrate soon after the incident, shall be punished with imprisonment of either description of a term which may extend to ten years, and shall also be liable to fine.
+
+Section 109. Attempt to murder.
+Whoever does any act with such intention or knowledge, and under such circumstances that, if he by that act caused death, he would be guilty of murder, shall be punished with imprisonment of either description for a term which may extend to ten years, and shall also be liable to fine; and if hurt is caused to any person by such act, the offender shall be liable either to imprisonment for life, or to such punishment as is hereinbefore mentioned.
+
+Section 111. Organised crime.
+(1) Any continuing unlawful activity including kidnapping, robbery, vehicle theft, extortion, land grabbing, contract killing, economic offences, cyber-crimes, trafficking of persons, drugs, weapons or illicit goods or services, human trafficking for prostitution or ransom, by any person or a group of persons acting in concert, singly or jointly, either as a member of an organised crime syndicate or on behalf of such syndicate, by use of violence, threat of violence, intimidation, coercion, or by any other unlawful means to obtain direct or indirect material benefit including a financial benefit, shall constitute organised crime.
+(2) Whoever commits organised crime shall: (a) if such offence has resulted in the death of any person, be punished with death or imprisonment for life, and shall also be liable to fine which shall not be less than ten lakh rupees; (b) in any other case, be punished with imprisonment for a term which shall not be less than five years but which may extend to imprisonment for life, and shall also be liable to fine which shall not be less than five lakh rupees.
+
+Section 113. Terrorist act.
+(1) Whoever does any act with the intent to threaten or likely to threaten the unity, integrity, sovereignty, security, or economic security of India or with the intent to strike terror or likely to strike terror in the people or any section of the people in India or in any foreign country, by using bombs, dynamite or other explosive substances or inflammable substances or firearms or other lethal weapons or poisonous or noxious gases or other chemicals or by any other substances of a hazardous nature, in such a manner as to cause or likely to cause death of, or injuries to, any person or persons or loss of, or damage to, or destruction of, property or disruption of any supplies or services essential to the life of the community in India or in any foreign country, commits a terrorist act.
+(2) Whoever commits a terrorist act shall: (a) if such offence has resulted in the death of any person, be punished with death or imprisonment for life, and shall also be liable to fine; (b) in any other case, be punished with imprisonment for a term which shall not be less than five years but which may extend to imprisonment for life, and shall also be liable to fine.
+
+Section 152. Act endangering sovereignty, unity and integrity of India.
+Whoever, purposely or knowingly, by words, either spoken or written, or by signs, or by visible representation, or by electronic communication or by use of financial means, or otherwise, excites or attempts to excite, secession or armed rebellion or subversive activities, or encourages feelings of separatist activities or endangers sovereignty or unity and integrity of India; or indulges in or commits any such act shall be punished with imprisonment for life or with imprisonment which may extend to seven years, and shall also be liable to fine.
+
+Section 303. Theft.
+(1) Whoever, intending to take dishonestly any movable property out of the possession of any person without that person's consent, moves that property in order to such taking, is said to commit theft.
+(2) Whoever commits theft shall be punished with imprisonment of either description for a term which may extend to three years, or with fine, or with both and in case of second or subsequent conviction of any person under this section, he shall be punished with rigorous imprisonment for a term which shall not be less than one year but which may extend to five years and with fine: Provided that in cases of theft where the value of the stolen property is less than five thousand rupees, and a person is convicted for the first time, shall upon return of the value of property or restoration of the stolen property, be punished with community service.
+
+Section 304. Snatching.
+(1) Theft is snatching if, in order to commit theft, the offender suddenly or quickly or forcibly seizes or secures or grabs or takes away from any person or from his possession any movable property.
+(2) Whoever commits snatching, shall be punished with imprisonment of either description for a term which may extend to three years, and shall also be liable to fine.
+
+Section 305. Theft in dwelling house, or means of transportation or place of worship etc.
+Whoever commits theft in any building, tent or vessel, which building, tent or vessel is used as a human dwelling, or used for the custody of property; or in respect of any means of transportation; or any idol or icon in any place of worship; or of any property of the Government or of any local authority shall be punished with imprisonment of either description for a term which may extend to seven years, and shall also be liable to fine.
+
+Section 308. Extortion.
+(1) Whoever intentionally puts any person in fear of any injury to that person or to any other, and thereby dishonestly induces the person so put in fear to deliver to any person any property, or valuable security or anything signed or sealed which may be converted into a valuable security, commits "extortion".
+(2) Whoever commits extortion shall be punished with imprisonment of either description for a term which may extend to seven years, or with fine, or with both.
+
+Section 309. Robbery.
+(1) In all robbery there is either theft or extortion. Theft is "robbery" if, in order to the committing of the theft, or in committing the theft, or in carrying away or attempting to carry away property obtained by the theft, the offender, for that end, voluntarily causes or attempts to cause to any person death or hurt or wrongful restraint, or fear of instant death or of instant hurt, or of instant wrongful restraint.
+(2) Whoever commits robbery shall be punished with rigorous imprisonment for a term which may extend to ten years, and shall also be liable to fine; and, if the robbery be committed on the highway between sunset and sunrise, the imprisonment may be extended to fourteen years.
+
+Section 310. Dacoity.
+(1) When five or more persons conjointly commit or attempt to commit a robbery, or where the whole number of persons conjointly committing or attempting to commit a robbery, and persons present and aiding such commission or attempt, amount to five or more, every person so committing, attempting or aiding, is said to commit "dacoity".
+(2) Whoever commits dacoity shall be punished with imprisonment for life, or with rigorous imprisonment for a term which may extend to ten years, and shall also be liable to fine.
+
+Section 316. Criminal breach of trust.
+(1) Whoever, being in any manner entrusted with property, or with any dominion over property, dishonestly misappropriates or converts to his own use that property, or dishonestly uses or disposes of that property in violation of any direction of law prescribing the mode in which such trust is to be discharged, or of any legal contract, express or implied, which he has made touching the discharge of such trust, or wilfully suffers any other person so to do, commits "criminal breach of trust".
+(2) Whoever commits criminal breach of trust shall be punished with imprisonment of either description for a term which may extend to five years, or with fine, or with both.
+
+Section 318. Cheating.
+(1) Whoever, by deceiving any person, fraudulently or dishonestly induces the person so deceived to deliver any property to any person, or to consent that any person shall retain any property, or intentionally induces the person so deceived to do or omit to do anything which he would not do or omit if he were not so deceived, and which act or omission causes or is likely to cause damage or harm to that person in body, mind, reputation or property, is said to "cheat".
+(2) Whoever cheats shall be punished with imprisonment of either description for a term which may extend to three years, or with fine, or with both.
+(3) Whoever cheats with the knowledge that he is likely thereby to cause wrongful loss to a person whose interest in the transaction to which the cheating relates, he was bound, either by law, or by a legal contract, to protect, or attempts to deceive that person, shall be punished with imprisonment of either description for a term which may extend to five years, or with fine, or with both.
+(4) Whoever cheats and thereby dishonestly induces the person deceived to deliver any property to any person, or to make, alter or destroy the whole or any part of a valuable security, or anything which is signed or sealed, and which is capable of being converted into a valuable security, shall be punished with imprisonment of either description for a term which may extend to seven years, and shall also be liable to fine.
+
+Section 319. Cheating by personation.
+(1) A person is said to "cheat by personation" if he cheats by pretending to be some other person, or by knowingly substituting one person for another, or representing that he or any other person is a person other than he or such other person really is.
+(2) Whoever cheats by personation shall be punished with imprisonment of either description for a term which may extend to five years, or with fine, or with both.
+
+Section 351. Criminal intimidation.
+(1) Whoever threatens another by any means, with any injury to his person, reputation or property, or to the person or reputation of any one in whom that person is interested, with intent to cause alarm to that person, or to cause that person to do any act which he is not legally bound to do, or to omit to do any act which that person is legally entitled to do, as the means of avoiding the execution of such threat, commits criminal intimidation.
+(2) Whoever commits, the offence of criminal intimidation shall be punished with imprisonment of either description for a term which may extend to two years, or with fine, or with both.
+(3) Whoever commits the offence of criminal intimidation by an anonymous communication, or having taken precaution to conceal the name or abode of the person from which the threat comes, shall be punished with imprisonment of either description for a term which may extend to two years, in addition to the punishment provided for the offence under sub-section (2).
+(4) Whoever commits the offence of criminal intimidation by threatening to cause death or grievous hurt, or to cause the destruction of any property by fire, or to cause an offence punishable with death or imprisonment for life, or with imprisonment for a term which may extend to seven years, or to impute unchastity to a woman, shall be punished with imprisonment of either description for a term which may extend to seven years, or with fine, or with both.
+
+Section 352. Intentional insult with intent to provoke breach of peace.
+Whoever intentionally insults, and thereby gives provocation to any person, intending or knowing it to be likely that such provocation will cause him to break the public peace, or to commit any other offence, shall be punished with imprisonment of either description for a term which may extend to two years, or with fine, or with both.
+
+Section 356. Defamation.
+(1) Whoever, by words either spoken or intended to be read, or by signs or by visible representations, makes or publishes in any manner, any imputation concerning any person intending to harm, or knowing or having reason to believe that such imputation will harm, the reputation of such person, is said, except in the cases hereinafter excepted, to defame that person.
+(2) Whoever defames another shall be punished with simple imprisonment for a term which may extend to two years, or with fine, or with community service.
+(3) Whoever prints or engraves any matter, knowing or having good reason to believe that such matter is defamatory of any person, shall be punished with simple imprisonment for a term which may extend to two years, or with fine, or with community service.

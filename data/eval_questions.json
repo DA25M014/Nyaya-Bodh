@@ -1,0 +1,96 @@
+{
+  "version": "1.0",
+  "description": "Evaluation set for Nyaya-Bodh. Each item has a question, the expected BNS section that should be cited, and the language.",
+  "items": [
+    {
+      "question": "What is the punishment for theft under the new BNS?",
+      "expected_section": "BNS_303",
+      "language": "en"
+    },
+    {
+      "question": "BNS me chori ki saza kya hai?",
+      "expected_section": "BNS_303",
+      "language": "hi"
+    },
+    {
+      "question": "What is the punishment for murder under BNS?",
+      "expected_section": "BNS_103",
+      "language": "en"
+    },
+    {
+      "question": "BNS ke tahat hatya ki saza kya hai?",
+      "expected_section": "BNS_103",
+      "language": "hi"
+    },
+    {
+      "question": "What does BNS say about cheating and dishonestly inducing delivery of property?",
+      "expected_section": "BNS_318",
+      "language": "en"
+    },
+    {
+      "question": "BNS me dhokhadhadi ki saza kya hai?",
+      "expected_section": "BNS_318",
+      "language": "hi"
+    },
+    {
+      "question": "What is the punishment for criminal intimidation in BNS?",
+      "expected_section": "BNS_351",
+      "language": "en"
+    },
+    {
+      "question": "What is organised crime under the BNS?",
+      "expected_section": "BNS_111",
+      "language": "en"
+    },
+    {
+      "question": "How does BNS define a terrorist act?",
+      "expected_section": "BNS_113",
+      "language": "en"
+    },
+    {
+      "question": "What is the punishment for robbery under BNS?",
+      "expected_section": "BNS_309",
+      "language": "en"
+    },
+    {
+      "question": "BNS me daketi ki saza kya hai?",
+      "expected_section": "BNS_310",
+      "language": "hi"
+    },
+    {
+      "question": "What is snatching under BNS?",
+      "expected_section": "BNS_304",
+      "language": "en"
+    },
+    {
+      "question": "What is the punishment for extortion under BNS?",
+      "expected_section": "BNS_308",
+      "language": "en"
+    },
+    {
+      "question": "What does BNS say about defamation?",
+      "expected_section": "BNS_356",
+      "language": "en"
+    },
+    {
+      "question": "What is the punishment for hit and run accidents under BNS?",
+      "expected_section": "BNS_106",
+      "language": "en"
+    },
+    {
+      "question": "What is the punishment for criminal breach of trust in BNS?",
+      "expected_section": "BNS_316",
+      "language": "en"
+    },
+    {
+      "question": "What does BNS say about acts endangering sovereignty of India?",
+      "expected_section": "BNS_152",
+      "language": "en"
+    },
+    {
+      "question": "What is the punishment for rape under BNS?",
+      "expected_section": "BNS_63",
+      "language": "en"
+    }
+  ]
+}
