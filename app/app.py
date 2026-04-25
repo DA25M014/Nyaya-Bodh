@@ -100,10 +100,10 @@ def build_ui() -> gr.Blocks:
                     examples = gr.Examples(
                         examples=[
                             ["What is the punishment for theft under the new BNS?"],
-                            ["BNS me dhokhadhadi ki saza kya hai?"],
+                            ["BNS के तहत हत्या की सजा क्या है?"],
                             ["What does the BNS say about criminal intimidation?"],
-                            ["Sangathit apraadh ki BNS me kya paribhasha hai?"],
-                            ["What is the punishment for cheating under BNS?"],
+                            ["What is organised crime under BNS?"],
+                            ["BNS में चोरी की सजा क्या है?"],
                         ],
                         inputs=[question_box],
                     )

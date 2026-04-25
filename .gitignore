@@ -10,3 +10,5 @@ derby.log
 .DS_Store
 *.egg-info/
 .pytest_cache/
+mlflow.db
+mlruns/
