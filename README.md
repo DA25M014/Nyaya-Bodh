@@ -1,6 +1,7 @@
+```markdown
 # Nyaya-Bodh
 
-A multilingual legal Q&A assistant for the Bharatiya Nyaya Sanhita (BNS) 2023, with IPC-to-BNS clause comparison and government scheme discovery. Built on Databricks (Delta Lake, Spark, MLflow) with OpenAI for embeddings and generation, served as a Databricks App via Gradio.
+A multilingual legal Q&A assistant for the Bharatiya Nyaya Sanhita (BNS) 2023, with IPC-to-BNS clause comparison and government scheme discovery. Built with Sarvam AI for embeddings and generation, served as a Databricks App via Gradio.
 
 Track: Nyaya-Sahayak (Governance & Access to Justice)
 
@@ -32,8 +33,8 @@ A user types a question in Hindi or English (e.g., "What is the punishment for t
         +---------+--------+         |                  |
         |                  |         |                  |
 +-------v------+   +-------v------+  |                  |
-|  OpenAI      |   |  FAISS index |  |                  |
-|  Embeddings  |   |   (DBFS)     |  |                  |
+|  Sarvam AI   |   |  FAISS index |  |                  |
+|  Chat API    |   |   (DBFS)     |  |                  |
 +--------------+   +-------+------+  |                  |
                            |         |                  |
                   +--------v---------v------------------v--------+
@@ -106,7 +107,7 @@ source .venv/bin/activate
 pip install -r requirements.txt
 
 cp .env.example .env
-# edit .env and set OPENAI_API_KEY
+# edit .env and set SARVAM_API_KEY
 
 bash scripts/setup.sh
 
@@ -120,10 +121,10 @@ The Gradio UI starts at `http://127.0.0.1:7860`.
 ## How to run (on Databricks Free Edition)
 
 1. Create a workspace on Databricks Free Edition and upload the repo (or clone it from GitHub via Repos).
-2. Add `OPENAI_API_KEY` as a secret:
+2. Add `SARVAM_API_KEY` as a secret:
    ```bash
    databricks secrets create-scope nyaya-bodh
-   databricks secrets put --scope nyaya-bodh --key openai_api_key
+   databricks secrets put --scope nyaya-bodh --key sarvam_api_key
    ```
 3. Run the notebooks in order:
    - `notebooks/01_data_ingestion.py` writes `legal.bns_chunks`, `legal.ipc_bns_map`, `legal.schemes` Delta tables.
@@ -160,10 +161,10 @@ The judges should be able to reproduce these in under two minutes.
 
 ## Models used
 
-- `gpt-4o-mini` for grounded answer generation (configurable to `gpt-4o`).
-- `text-embedding-3-small` for chunk and query embeddings.
+- `sarvam-m` (via Sarvam AI API at `api.sarvam.ai`) for grounded answer generation. Configurable to `sarvam-30b` or `sarvam-105b` for higher quality.
+- `paraphrase-multilingual-MiniLM-L12-v2` (sentence-transformers, runs locally) for chunk and query embeddings.
 
-Both are configured via `config.py` and can be swapped for any OpenAI-compatible endpoint, including locally hosted Param-1 / Sarvam-m via an OpenAI-compatible server such as `vllm` or `llama-cpp-python`. See `src/llm.py` and `src/embeddings.py` for the abstraction points.
+The chat model is configured via `config.py` and can be swapped for any OpenAI-compatible endpoint, including a self-hosted `vllm serve sarvamai/sarvam-m` instance. See `src/llm.py` for the abstraction point.
 
 ## Datasets
 
@@ -183,14 +184,16 @@ python -m notebooks.03_evaluation
 
 All configuration lives in `config.py` and is overridable via environment variables. Key knobs:
 
-- `OPENAI_API_KEY`: required.
-- `OPENAI_CHAT_MODEL`: default `gpt-4o-mini`.
-- `OPENAI_EMBED_MODEL`: default `text-embedding-3-small`.
+- `SARVAM_API_KEY`: required.
+- `SARVAM_CHAT_MODEL`: default `sarvam-m`. Options: `sarvam-30b`, `sarvam-105b`.
+- `SARVAM_API_BASE`: default `https://api.sarvam.ai/v1`.
 - `CHUNK_TOKENS`: default `512`.
 - `CHUNK_OVERLAP`: default `64`.
 - `RETRIEVAL_TOP_K`: default `5`.
+- `ST_MODEL_NAME`: sentence-transformers model for embeddings, default `paraphrase-multilingual-MiniLM-L12-v2`.
 - `ARTIFACTS_DIR`: default `./artifacts` locally, `/dbfs/FileStore/nyaya_bodh` on Databricks.
 
 ## License
 
 MIT. Datasets retain their original licenses (Open Government Data License for `data.gov.in`, BNS 2023 is in the public domain as a Government of India enactment).
+```
